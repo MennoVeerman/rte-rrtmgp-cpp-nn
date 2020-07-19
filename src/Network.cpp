@@ -9,8 +9,8 @@
 #include <iostream>
 #include "Netcdf_interface.h"
 #include "Network.h"
-//#include <mkl.h>
-#include <cblas.h>
+#include <mkl.h>
+//#include <cblas.h>
 #include <time.h>
 #include <sys/time.h>
 #define restrict __restrict__
