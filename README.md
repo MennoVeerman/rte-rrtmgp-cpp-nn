@@ -41,3 +41,8 @@ directory from which `test_rte_rrtmgp` is triggered:
 1. Input file `rte_rrtmgp_input.nc` with atmospheric profiles of pressure, temperature, and gases.
 2. Long wave coefficients file from original RTE+RRTMGP repository (in `rrtmgp/data`) as `coefficients_lw.nc`
 3. Short wave coefficients file from original RTE+RRTMGP repository (in `rrtmgp/data`) as `coefficients_sw.nc`
+
+# Instructions for neural network-based gas optics parametrization
+Obtain repository https://github.com/MennoVeerman/machinelearning-gasoptics to generate training data for neural networks, to train neural networks and to generate testing data.
+Then run with ./test\_rte\_rrtmgp --nn-gas-optics
+
